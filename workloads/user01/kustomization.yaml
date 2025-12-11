@@ -11,5 +11,6 @@ labels:
     includeSelectors: true
 
 images:
-- name: zy-app
-  newTag: f44f4dd
+- name: myapp
+  newName: rhapsody008/sample-nodejs-webapp
+  newTag: user01-
