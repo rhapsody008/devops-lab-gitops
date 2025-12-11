@@ -1,1 +1,1 @@
-# devops-lab-cdsource
+# devops-lab-gitops
