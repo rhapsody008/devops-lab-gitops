@@ -13,4 +13,4 @@ labels:
 images:
 - name: myapp
   newName: rhapsody008/sample-nodejs-webapp
-  newTag: user01-18408f7
+  newTag: user01-d7c0d31
