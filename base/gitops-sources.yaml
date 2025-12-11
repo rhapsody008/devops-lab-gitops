@@ -1,0 +1,420 @@
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user01
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user01
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user02
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user02
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user03
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user03
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user04
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user04
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user05
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user05
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user06
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user06
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user07
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user07
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user08
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user08
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user09
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user09
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user10
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user10
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user11
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user11
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user12
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user12
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user13
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user13
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user14
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user14
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user15
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user15
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user16
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user16
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user17
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user17
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user18
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user18
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user19
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user19
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user20
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user20
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user21
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user21
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user22
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user22
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user23
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user23
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user24
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user24
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user25
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user25
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user26
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user26
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user27
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user27
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user28
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user28
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user29
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user29
+    ref:
+      branch: main
+
+---
+apiVersion: dispatch.d2iq.io/v1alpha2
+kind: GitopsRepository
+metadata:
+  name: user30
+  namespace: nkp-devops-lab
+spec:
+  cloneUrl: https://github.com/rhapsody008/devops-lab-gitops.git
+  secret: git
+  template:
+    path: ./workload/user30
+    ref:
+      branch: main

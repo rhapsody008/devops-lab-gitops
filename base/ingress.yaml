@@ -1,0 +1,321 @@
+apiVersion: traefik.io/v1alpha1
+kind: Middleware
+metadata:
+  name: stripprefixes
+  namespace: nkp-devops-lab
+spec:
+  stripPrefix:
+    prefixes:
+      - /user01
+      - /user02
+      - /user03
+      - /user04
+      - /user05
+      - /user06
+      - /user07
+      - /user08
+      - /user09
+      - /user10
+      - /user11
+      - /user12
+      - /user13
+      - /user14
+      - /user15
+      - /user16
+      - /user17
+      - /user18
+      - /user19
+      - /user20
+      - /user21
+      - /user22
+      - /user23
+      - /user24
+      - /user25
+      - /user26
+      - /user27
+      - /user28
+      - /user29
+      - /user30
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: nkp-devops-lab-web
+  namespace: nkp-devops-lab
+  annotations:
+    kubernetes.io/ingress.class: kommander-traefik
+    traefik.ingress.kubernetes.io/router.tls: "false"
+    traefik.ingress.kubernetes.io/router.middlewares: nkp-devops-lab-stripprefixes@kubernetescrd
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /user01
+        pathType: Exact
+        backend:
+          service:
+            name: user01-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user02
+        pathType: Exact
+        backend:
+          service:
+            name: user02-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user03
+        pathType: Exact
+        backend:
+          service:
+            name: user03-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user04
+        pathType: Exact
+        backend:
+          service:
+            name: user04-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user05
+        pathType: Exact
+        backend:
+          service:
+            name: user05-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user06
+        pathType: Exact
+        backend:
+          service:
+            name: user06-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user07
+        pathType: Exact
+        backend:
+          service:
+            name: user07-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user08
+        pathType: Exact
+        backend:
+          service:
+            name: user08-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user09
+        pathType: Exact
+        backend:
+          service:
+            name: user09-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user10
+        pathType: Exact
+        backend:
+          service:
+            name: user10-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user11
+        pathType: Exact
+        backend:
+          service:
+            name: user11-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user12
+        pathType: Exact
+        backend:
+          service:
+            name: user12-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user13
+        pathType: Exact
+        backend:
+          service:
+            name: user13-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user14
+        pathType: Exact
+        backend:
+          service:
+            name: user14-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user15
+        pathType: Exact
+        backend:
+          service:
+            name: user15-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user16
+        pathType: Exact
+        backend:
+          service:
+            name: user16-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user17
+        pathType: Exact
+        backend:
+          service:
+            name: user17-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user18
+        pathType: Exact
+        backend:
+          service:
+            name: user18-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user19
+        pathType: Exact
+        backend:
+          service:
+            name: user19-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user20
+        pathType: Exact
+        backend:
+          service:
+            name: user20-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user21
+        pathType: Exact
+        backend:
+          service:
+            name: user21-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user22
+        pathType: Exact
+        backend:
+          service:
+            name: user22-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user23
+        pathType: Exact
+        backend:
+          service:
+            name: user23-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user24
+        pathType: Exact
+        backend:
+          service:
+            name: user24-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user25
+        pathType: Exact
+        backend:
+          service:
+            name: user25-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user26
+        pathType: Exact
+        backend:
+          service:
+            name: user26-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user27
+        pathType: Exact
+        backend:
+          service:
+            name: user27-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user28
+        pathType: Exact
+        backend:
+          service:
+            name: user28-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user29
+        pathType: Exact
+        backend:
+          service:
+            name: user29-web
+            port:
+              number: 3000
+  - http:
+      paths:
+      - path: /user30
+        pathType: Exact
+        backend:
+          service:
+            name: user30-web
+            port:
+              number: 3000

@@ -1,0 +1,4 @@
+# Setup
+
+## Manual config
+
